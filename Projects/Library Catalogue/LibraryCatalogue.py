@@ -77,15 +77,15 @@ if __name__ == '__main__':
 	bookCollection = {}
 	book1 = Book("Harry Potter", 827132, 9999999)
 	book2 = Book("Game of Thrones", 875624, 8876956)
-	book3 = Book("Telford", 557558, 585589)
-	book4 = Book("Keary", 85686,54848)
-	book5 = Book("Gildart", 745412,365854)
+	book3 = Book("The Dark Knight", 557558, 585589)
+	book4 = Book("Moneyball", 85686,54848)
+	book5 = Book("Lord Of The Rings", 745412,365854)
 
 	bookCollection["Harry Potter"] = book1
 	bookCollection["Game of Thrones"] = book2
-	bookCollection["Telford"] = book3
-	bookCollection["Keary"] = book4
-	bookCollection["Gildart"] = book5
+	bookCollection["The Dark Knight"] = book3
+	bookCollection["Moneyball"] = book4
+	bookCollection["Lord Of The Rings"] = book5
 
 	print(bookCollection)
 	print("********************************************************************")
@@ -99,8 +99,8 @@ if __name__ == '__main__':
 	lib.ReturnBook("Harry Potter")
 	lib.CheckoutBook("Harry Potter")
 	lib.ReturnBook("Harry Potter")
-	lib.CheckoutBook("Gildart")
-	lib.ReturnBook("Gildart")
+	lib.CheckoutBook("Lord Of The Rings")
+	lib.ReturnBook("Lord Of The Rings")
 	
 	print("********************************************************************")
 
